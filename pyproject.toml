@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "gccestimating"
-version = "0.2.1"
+version = "0.2.11"
 description = "Generalized Cross Correlation estimation based on numpy."
 authors = ["Siegfried Gündert <siegfried.guendert@googlemail.com>"]
 license = "MPL-2.0"
