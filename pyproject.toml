@@ -1,17 +1,17 @@
 [tool.poetry]
 name = "gccestimating"
-version = "0.2.0"
+version = "0.2.1"
 description = "Generalized Cross Correlation estimation based on numpy."
 authors = ["Siegfried Gündert <siegfried.guendert@googlemail.com>"]
 license = "MPL-2.0"
 
 [tool.poetry.dependencies]
-python = "^3.7"
-numpy = "^2.01"
+python = ">= 3.7"
+numpy = ">=2.01"
 
 [tool.poetry.dev-dependencies]
 ipython = ">= 8.10"
-matplotlib = "^3.1"
+matplotlib = ">=3.1"
 pytest = "^5.0"
 pytest-assume = "^2.2"
 pytest-cov = "^2.7"
