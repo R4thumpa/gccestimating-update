@@ -181,6 +181,7 @@ class GCC(object):
         self._spec2 = spec2
 
     def _backtransform(self, spec):
+        assert self._corrlen is not None
         sig = self._ifft(spec, self._fftlen)
         sig = _np.roll(sig, len(sig) // 2)
         start = (len(sig) - self._corrlen) // 2 + 1
